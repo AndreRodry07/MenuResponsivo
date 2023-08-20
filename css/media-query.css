@@ -1,0 +1,25 @@
+@media screen and (max-width: 719px) {
+    .logo {
+        display: none;
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .menu-item > li {
+        border: 1px solid #cdbdae;
+        border-left-style: none;
+        border-top-style: none;
+        border-right-style: none;
+        margin-left: 0;
+        background-color: var(--background-color);
+        text-align: center;
+        padding: 1rem 0;
+        display: block;
+    }
+
+    .custom-header {
+        height: auto;
+    }
+}
